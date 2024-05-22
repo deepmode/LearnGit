@@ -13,6 +13,13 @@ class GA4Client: AnalyticsProtocol {
     
     init() {
         //setup()
+        
+        start()
+        
+    }
+    
+    func start() {
+        
     }
     
     func sendEvent(name: String, parameters: [String : String]) {
