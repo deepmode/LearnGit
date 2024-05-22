@@ -13,8 +13,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         title = "Welcome to WWDC"
+        view.backgroundColor = UIColor.orange
     }
+}
 
 
+#Preview("hello world", traits: .fixedLayout(width: 300, height: 200)) {
+    let nav = UINavigationController()
+    nav.viewControllers = [ViewController()]
+    return nav
 }
 
