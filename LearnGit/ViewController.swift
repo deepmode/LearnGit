@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         title = "Welcome to Google I/O 2024"
         view.backgroundColor = UIColor.orange
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let analyticsManager = AnalyticsManager(clients: [GA4Client()])
+        analyticsManager.send(eventName: "view_article", parameters: ["title" : "some title"])
     }
 }
 
