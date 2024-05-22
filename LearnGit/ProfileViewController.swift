@@ -14,7 +14,7 @@ class ProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        title = "Profile Page"
+        title = "Profile Section"
         view.backgroundColor = UIColor.green
     }
     

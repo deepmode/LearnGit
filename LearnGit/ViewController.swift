@@ -12,7 +12,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        title = "Welcome to WWDC"
+        title = "Welcome to WWDC 2024"
+        view.backgroundColor = UIColor.yellow
+        view.layer.borderColor = UIColor.red.cgColor
+        view.layer.borderWidth = 10.0
     }
 
 
