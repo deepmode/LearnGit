@@ -104,11 +104,11 @@
 				6B3F5C2A2B2E9F54000CF0CB /* AppDelegate.swift */,
 				6B3F5C2C2B2E9F54000CF0CB /* SceneDelegate.swift */,
 				6B3F5C2E2B2E9F54000CF0CB /* ViewController.swift */,
+				6B25117D2BFD7B2200EB7861 /* ProfileViewController.swift */,
 				6B3F5C302B2E9F54000CF0CB /* Main.storyboard */,
 				6B3F5C332B2E9F54000CF0CB /* Assets.xcassets */,
 				6B3F5C352B2E9F54000CF0CB /* LaunchScreen.storyboard */,
 				6B3F5C382B2E9F54000CF0CB /* Info.plist */,
-				6B25117D2BFD7B2200EB7861 /* ProfileViewController.swift */,
 			);
 			path = LearnGit;
 			sourceTree = "<group>";
