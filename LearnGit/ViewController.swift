@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let analyticsManager = AnalyticsManager(clients: [GA4Client()])
+        let analyticsManager = AnalyticsManager(clients: [GA4Client(),SomeOtherAnalyticsClient()])
         analyticsManager.send(eventName: "view_article", parameters: ["title" : "some title"])
     }
 }

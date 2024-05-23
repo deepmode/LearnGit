@@ -19,7 +19,7 @@ class GA4Client: AnalyticsProtocol {
     }
     
     func start() {
-        
+        print("\(type(of: self)): \(#function)")
     }
     
     func sendEvent(name: String, parameters: [String : String]) {
