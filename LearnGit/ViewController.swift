@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         let analyticsManager = AnalyticsManager(clients: [GA4Client(),SomeOtherAnalyticsClient(), PermutiveAnalysis(accountId: "123456789")])
         
         //view_article event
+        //send event
         analyticsManager.send(eventName: "view_article", parameters: ["title" : "some title"])
         
     }
