@@ -13,6 +13,12 @@ class PermutiveAnalysis: AnalyticsProtocol {
     
     init(accountId:String) {
         self.accountId = accountId
+        config()
+    }
+    
+    private func config() {
+        //config
+        print("\(type(of: self)): \(#function): \(name) : \(parameters)")
     }
     
     func sendEvent(name: String, parameters: [String : String]) {
