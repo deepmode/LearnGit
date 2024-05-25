@@ -10,6 +10,10 @@ import Foundation
 class ComsocreAnalyticsClient: AnalyticsProtocol {
     
     init() {
+        config()
+    }
+    
+    func config() {
         
     }
     
