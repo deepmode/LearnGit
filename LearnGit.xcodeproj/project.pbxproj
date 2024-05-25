@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B2226B72C0210F600205127 /* ComsocreAnalyticsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2226B62C0210F600205127 /* ComsocreAnalyticsClient.swift */; };
 		6B25117E2BFD7B2200EB7861 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25117D2BFD7B2200EB7861 /* ProfileViewController.swift */; };
 		6B2511802BFDC3CD00EB7861 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25117F2BFDC3CD00EB7861 /* SettingsViewController.swift */; };
 		6B2511822BFDC48F00EB7861 /* BookmarkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2511812BFDC48F00EB7861 /* BookmarkingViewController.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B2226B62C0210F600205127 /* ComsocreAnalyticsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComsocreAnalyticsClient.swift; sourceTree = "<group>"; };
 		6B25117D2BFD7B2200EB7861 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6B25117F2BFDC3CD00EB7861 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6B2511812BFDC48F00EB7861 /* BookmarkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkingViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				6B25118A2BFDF1EC00EB7861 /* GA4Client.swift */,
 				6BE191A92BFED1C7000283DC /* SomeOtherAnalyticsClient.swift */,
 				6BF5D9F02C01D48F00D554C8 /* PermutiveAnalyticsClient.swift */,
+				6B2226B62C0210F600205127 /* ComsocreAnalyticsClient.swift */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				6B25118B2BFDF1EC00EB7861 /* GA4Client.swift in Sources */,
 				6B25117E2BFD7B2200EB7861 /* ProfileViewController.swift in Sources */,
 				6B2511802BFDC3CD00EB7861 /* SettingsViewController.swift in Sources */,
+				6B2226B72C0210F600205127 /* ComsocreAnalyticsClient.swift in Sources */,
 				6B3F5C2D2B2E9F54000CF0CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
