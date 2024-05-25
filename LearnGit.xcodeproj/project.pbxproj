@@ -23,7 +23,7 @@
 		6B3F5C4C2B2E9F54000CF0CB /* LearnGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F5C4B2B2E9F54000CF0CB /* LearnGitUITests.swift */; };
 		6B3F5C4E2B2E9F54000CF0CB /* LearnGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F5C4D2B2E9F54000CF0CB /* LearnGitUITestsLaunchTests.swift */; };
 		6BE191AA2BFED1C7000283DC /* SomeOtherAnalyticsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE191A92BFED1C7000283DC /* SomeOtherAnalyticsClient.swift */; };
-		6BF5D9F12C01D48F00D554C8 /* PermutiveAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5D9F02C01D48F00D554C8 /* PermutiveAnalysis.swift */; };
+		6BF5D9F12C01D48F00D554C8 /* PermutiveAnalyticsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5D9F02C01D48F00D554C8 /* PermutiveAnalyticsClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		6B3F5C4B2B2E9F54000CF0CB /* LearnGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGitUITests.swift; sourceTree = "<group>"; };
 		6B3F5C4D2B2E9F54000CF0CB /* LearnGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6BE191A92BFED1C7000283DC /* SomeOtherAnalyticsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeOtherAnalyticsClient.swift; sourceTree = "<group>"; };
-		6BF5D9F02C01D48F00D554C8 /* PermutiveAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutiveAnalysis.swift; sourceTree = "<group>"; };
+		6BF5D9F02C01D48F00D554C8 /* PermutiveAnalyticsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutiveAnalyticsClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 				6B2511882BFDF1CC00EB7861 /* AnalyticsManager.swift */,
 				6B25118A2BFDF1EC00EB7861 /* GA4Client.swift */,
 				6BE191A92BFED1C7000283DC /* SomeOtherAnalyticsClient.swift */,
-				6BF5D9F02C01D48F00D554C8 /* PermutiveAnalysis.swift */,
+				6BF5D9F02C01D48F00D554C8 /* PermutiveAnalyticsClient.swift */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF5D9F12C01D48F00D554C8 /* PermutiveAnalysis.swift in Sources */,
+				6BF5D9F12C01D48F00D554C8 /* PermutiveAnalyticsClient.swift in Sources */,
 				6B2511892BFDF1CC00EB7861 /* AnalyticsManager.swift in Sources */,
 				6B2511822BFDC48F00EB7861 /* BookmarkingViewController.swift in Sources */,
 				6B2511842BFDED1C00EB7861 /* AnalyticsProtocol.swift in Sources */,
