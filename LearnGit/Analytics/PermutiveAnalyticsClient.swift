@@ -18,7 +18,7 @@ class PermutiveAnalysis: AnalyticsProtocol {
     
     private func config() {
         //config
-        print("\(type(of: self)): \(#function): \(name) : \(parameters)")
+        print("\(type(of: self)): \(#function)")
     }
     
     func sendEvent(name: String, parameters: [String : String]) {
