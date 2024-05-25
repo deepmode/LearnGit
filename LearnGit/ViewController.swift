@@ -21,7 +21,10 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let analyticsManager = AnalyticsManager(clients: [GA4Client(),SomeOtherAnalyticsClient(), PermutiveAnalysis(accountId: "123456789")])
+        
+        //view_article event
         analyticsManager.send(eventName: "view_article", parameters: ["title" : "some title"])
+        
     }
 }
 
