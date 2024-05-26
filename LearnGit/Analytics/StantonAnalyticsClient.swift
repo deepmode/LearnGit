@@ -14,7 +14,7 @@ class StantonAnalyticsClient: AnalyticsProtocol {
     }
     
     func config() {
-        
+        print("\(type(of: self)): \(#function)")
     }
     
     func sendEvent(name: String, parameters: [String : String]) {
