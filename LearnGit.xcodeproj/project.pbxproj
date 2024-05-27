@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1724252C04429000CED413 /* PrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1724242C04429000CED413 /* PrivacySettingsView.swift */; };
 		6B2226B72C0210F600205127 /* ComsocreAnalyticsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2226B62C0210F600205127 /* ComsocreAnalyticsClient.swift */; };
 		6B25117E2BFD7B2200EB7861 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25117D2BFD7B2200EB7861 /* ProfileViewController.swift */; };
 		6B2511802BFDC3CD00EB7861 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25117F2BFDC3CD00EB7861 /* SettingsViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B1724242C04429000CED413 /* PrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsView.swift; sourceTree = "<group>"; };
 		6B2226B62C0210F600205127 /* ComsocreAnalyticsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComsocreAnalyticsClient.swift; sourceTree = "<group>"; };
 		6B25117D2BFD7B2200EB7861 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6B25117F2BFDC3CD00EB7861 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				6BF5D9F02C01D48F00D554C8 /* PermutiveAnalyticsClient.swift */,
 				6B2226B62C0210F600205127 /* ComsocreAnalyticsClient.swift */,
 				6B6B1D222C02BC5F004BB50A /* StantonAnalyticsClient.swift */,
+				6B1724242C04429000CED413 /* PrivacySettingsView.swift */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				6B2511892BFDF1CC00EB7861 /* AnalyticsManager.swift in Sources */,
 				6B2511822BFDC48F00EB7861 /* BookmarkingViewController.swift in Sources */,
 				6B2511842BFDED1C00EB7861 /* AnalyticsProtocol.swift in Sources */,
+				6B1724252C04429000CED413 /* PrivacySettingsView.swift in Sources */,
 				6B6B1D232C02BC5F004BB50A /* StantonAnalyticsClient.swift in Sources */,
 				6B3F5C2F2B2E9F54000CF0CB /* ViewController.swift in Sources */,
 				6BE191AA2BFED1C7000283DC /* SomeOtherAnalyticsClient.swift in Sources */,
