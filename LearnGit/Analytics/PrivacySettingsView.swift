@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct PrivacySettingsView: View {
+    
+    @State var isReady:Bool = false
+    
     var body: some View {
         Text("Privacy Settings")
     }
