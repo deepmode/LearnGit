@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         title = "Welcome to Google I/O 2024"
         view.backgroundColor = UIColor.green
         view.layer.borderColor = UIColor.red.cgColor
-        view.layer.borderWidth = 10.0
+        view.layer.borderWidth = 8.0
     }
     
     override func viewDidAppear(_ animated: Bool) {
