@@ -12,7 +12,10 @@ struct PrivacySettingsView: View {
     @State var isReady:Bool = false
     
     var body: some View {
-        Text("Privacy Settings")
+        VStack {
+            Text("Privacy Settings")
+            Text("Terms and Conditions")
+        }
     }
 }
 
