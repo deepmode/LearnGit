@@ -10,6 +10,9 @@ import SwiftUI
 struct ProfileViewDetail: View {
     var body: some View {
         Text("ProfileView Detail")
+            .onAppear {
+                print("onAppear")
+            }
     }
 }
 
