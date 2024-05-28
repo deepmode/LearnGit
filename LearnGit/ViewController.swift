@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         title = "Welcome to Google I/O 2024"
-        view.backgroundColor = UIColor.systemPink
+        view.backgroundColor = UIColor.cyan
         view.layer.borderColor = UIColor.red.cgColor
         view.layer.borderWidth = 10.0
     }
