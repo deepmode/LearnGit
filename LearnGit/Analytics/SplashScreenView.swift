@@ -9,8 +9,17 @@ import SwiftUI
 
 struct SplashScreenView: View {
     var body: some View {
-        Rectangle().fill(Color.yellow)
-            .ignoresSafeArea(.all, edges: [.top])
+        ZStack {
+            Color.pink
+                .ignoresSafeArea()
+            Rectangle().fill(Color.yellow)
+                .ignoresSafeArea(.all, edges: [.top])
+            VStack {
+                Text("Welcome to WWDC 2024")
+                    .font(.title)
+                    .fontWeight(.bold)
+            }
+        }
     }
 }
 
