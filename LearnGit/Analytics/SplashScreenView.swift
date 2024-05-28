@@ -18,6 +18,7 @@ struct SplashScreenView: View {
                 Text("Welcome to WWDC 2024")
                     .font(.title)
                     .fontWeight(.bold)
+                Text("Let's coding!")
             }
         }
     }
