@@ -18,5 +18,10 @@ class ProfileViewController: UIViewController {
         view.backgroundColor = UIColor.cyan
         
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("\(type(of: self)): \(#function)")
+    }
 
 }
