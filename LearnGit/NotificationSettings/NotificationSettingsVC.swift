@@ -14,6 +14,7 @@ class NotificationSettingsVC: UIViewController {
 
         // Do any additional setup after loading the view.
         title = "Notification Settings"
+        view.backgroundColor = UIColor.yellow
     }
     
 
